@@ -1,0 +1,7 @@
+1. change to this directory
+
+2. download the following files from https://singlecell.broadinstitute.org/single_cell/study/SCP1375
+    - expression_matrix_normalized.csv
+    - metadata.csv
+
+3. run process.py

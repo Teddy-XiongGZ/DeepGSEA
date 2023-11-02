@@ -1,0 +1,4 @@
+1. change to this directory
+
+2. download the following file from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132172
+    - GSE132172_glio_chrom_instability_normalized_expression_matrix.tsv

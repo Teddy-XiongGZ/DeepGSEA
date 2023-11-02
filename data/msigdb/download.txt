@@ -1,0 +1,14 @@
+# Download GO and Pathway annotations
+
+1. download gene set annotations from [MSigDB](https://www.gsea-msigdb.org/gsea/msigdb/human/collections.jsp)
+- Gene Ontology Biological Processes
+    - Download gene sets from "C5: ontology gene sets -> GO: Gene Ontology gene sets -> BP: subset of GO" as a json file (c5.go.bp.v2023.1.Hs.json)
+- HALLMARK
+    - Download gene sets from "H: hallmark gene sets" as a json file (h.all.v2023.1.Hs.json)
+- KEGG
+    - Download gene sets from "C2: curated gene sets -> CP: Canonical pathways -> KEGG subset of CP" as a json file (c2.cp.kegg.v2023.1.Hs.json)
+- Reactome
+    - Download gene sets from "C2: curated gene sets -> CP: Canonical pathways -> Reactome subset of CP" as a json file (c2.cp.reactome.v2023.1.Hs.json)
+
+2. download go-basic from [GENEONTOLOGY](https://geneontology.org/docs/download-ontology/)
+- `wget http://purl.obolibrary.org/obo/go/go-basic.obo`

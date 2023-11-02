@@ -1,0 +1,8 @@
+1. change to this directory
+
+2. download the following files from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122031
+    - GSM3453216_A549_4h_Mock_NormCounts.csv
+    - GSM3453215_A549_4h_MOI02_NormCounts.csv
+    - GSM3453214_A549_4h_MOI20_NormCounts.csv
+
+3. run process.py

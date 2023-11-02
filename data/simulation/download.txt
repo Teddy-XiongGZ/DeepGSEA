@@ -1,0 +1,6 @@
+1. change to this directory
+
+2. download the following file from 
+    - GSE212270_integrated_naive_cd8.rds
+
+3. generate simulated data with Splatter following our paper
