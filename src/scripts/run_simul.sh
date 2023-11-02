@@ -15,7 +15,7 @@ do
             --model DeepGSEA \
             --exp_str 'optimal_'$fold \
             --device cuda:0 \
-            --lambda_2 0.1 \
+            --lambda_1 0.1 \
             --lambda_4 1 \
             --lambda_5 1 \
             --ratio 0.8 \
@@ -41,7 +41,7 @@ do
             --model DeepGSEA \
             --exp_str 'optimal_'$fold \
             --device cuda:0 \
-            --lambda_2 0.1 \
+            --lambda_1 0.1 \
             --lambda_4 1 \
             --lambda_5 1 \
             --ratio 0.8 \
@@ -67,7 +67,7 @@ do
             --model DeepGSEA \
             --exp_str 'optimal_'$fold \
             --device cuda:0 \
-            --lambda_2 0.1 \
+            --lambda_1 0.1 \
             --lambda_4 1 \
             --lambda_5 1 \
             --ratio 0.8 \
@@ -92,7 +92,7 @@ do
             --model DeepGSEA \
             --exp_str 'optimal_'$fold \
             --device cuda:0 \
-            --lambda_2 0.1 \
+            --lambda_1 0.1 \
             --lambda_4 1 \
             --lambda_5 1 \
             --ratio 0.8 \
