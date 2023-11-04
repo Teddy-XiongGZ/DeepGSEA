@@ -24,5 +24,5 @@ Reproduce results on the glioblastoma data
     ```
 5. Run the sigificance test on the results
     ```
-    python --data glioblastoma
+    python pvalue_real.py --data glioblastoma
     ```
