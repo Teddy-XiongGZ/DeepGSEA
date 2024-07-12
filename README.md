@@ -2,7 +2,7 @@
 
 DeepGSEA is a deep learning-enhanced gene set enrichment (GSE) analysis method which leverages the expressiveness of interpretable, prototype-based neural networks to provide an in-depth analysis of GSE.
 
-[![Preprint](https://img.shields.io/badge/preprint-available-brightgreen)](https://www.biorxiv.org/content/10.1101/2023.11.03.565235)
+[![Paper](https://img.shields.io/badge/paper-available-brightgreen)](https://academic.oup.com/bioinformatics/article/40/7/btae434/7702331)
 
 ## Prerequisite
 Install all required packages in `./requirements.txt`
