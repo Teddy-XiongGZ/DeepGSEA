@@ -30,11 +30,12 @@ Reproduce results on the glioblastoma data
 ## Citation
 If you find our research useful, please consider citing:
 ```
-@article {xiong2023deepgsea,
-	title = {DeepGSEA: Explainable Deep Gene Set Enrichment Analysis for Single-cell Transcriptomic Data},
-	author = {Guangzhi Xiong and Nathan John LeRoy and Stefan Bekiranov and Aidong Zhang},
-	journal = {bioRxiv},
-	year = {2023},
-	publisher = {Cold Spring Harbor Laboratory}
+@article{xiong2024deepgsea,
+  title={DeepGSEA: Explainable Deep Gene Set Enrichment Analysis for Single-cell Transcriptomic Data},
+  author={Xiong, Guangzhi and John LeRoy, Nathaniel and Bekiranov, Stefan and Sheffield, Nathan and Zhang, Aidong},
+  journal={Bioinformatics},
+  pages={btae434},
+  year={2024},
+  publisher={Oxford University Press}
 }
 ```
