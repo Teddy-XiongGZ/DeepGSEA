@@ -23,7 +23,7 @@ setup(
 
     url='https://github.com/Teddy-XiongGZ/DeepGSEA',
 
-    packages=find_packages(include=['screenpro', 'screenpro.*']),
+    packages=find_packages(include=['src.*']),
     package_dir={'':'src'},
 
     install_requires=required,
