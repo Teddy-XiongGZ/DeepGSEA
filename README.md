@@ -5,7 +5,10 @@ DeepGSEA is a deep learning-enhanced gene set enrichment (GSE) analysis method w
 [![Paper](https://img.shields.io/badge/paper-available-brightgreen)](https://academic.oup.com/bioinformatics/article/40/7/btae434/7702331)
 
 ## Prerequisite
-Install all required packages in `./requirements.txt`
+Install all required packages in `./requirements.txt` (tested on Python 3.9.6)
+```script
+pip install -r requirements.txt
+```
 
 ## Quick start
 
@@ -15,9 +18,9 @@ Reproduce results on the glioblastoma data
 
 2. Download the scRNA-seq data following `./data/GSE132172/download.txt`
 
-3. Move to the directory `./src`
+3. Move to the directory `./deepgsea`
     ```
-    cd ./src
+    cd ./deepgsea
     ```
 4. Run DeepGSEA on the dataset with interpretations
     ```

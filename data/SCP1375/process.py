@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import os
 
 # data_dir = "../data/SCP1375"
 data_dir = "./"
