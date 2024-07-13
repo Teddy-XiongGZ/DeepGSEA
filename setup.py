@@ -23,9 +23,14 @@ setup(
 
     url='https://github.com/Teddy-XiongGZ/DeepGSEA',
 
-    packages=find_namespace_packages(where='src'),
-    package_dir={'': 'src'},
+    packages=find_packages(include=['src', 'src.*']),
     install_requires=required,
+
+    entry_points={
+        'console_scripts': [
+            'deepgsea=src.run:main',
+        ],
+    },
 
     classifiers=[
         'Intended Audience :: Science/Research',
