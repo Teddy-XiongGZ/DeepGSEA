@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages, find_namespace_packages
-from src.__init__ import __version__, __author__, __email__
+from deepgsea.__init__ import __version__, __author__, __email__
 from pathlib import Path
 
 this_directory = Path(__file__).parent
@@ -23,7 +23,7 @@ setup(
 
     url='https://github.com/Teddy-XiongGZ/DeepGSEA',
 
-    packages=find_packages(include=['src', 'src.*']),
+    packages=find_packages(include=['deepgsea', 'deepgsea.*']),
     install_requires=required,
 
     entry_points={
