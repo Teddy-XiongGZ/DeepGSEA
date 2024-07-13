@@ -3,13 +3,13 @@ import time
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
-from load_data import load_dataset
-from model import *
 from torch.utils.tensorboard import SummaryWriter
 from torch.autograd import Variable
 from torchmetrics import Accuracy, AUROC, F1Score
 from sklearn.metrics import accuracy_score, roc_auc_score, f1_score
-from interpret import print_concept_score
+from .interpret import print_concept_score
+from .load_data import load_dataset
+from .model import *
 
 class Logger:
 

@@ -2,10 +2,11 @@ torch==1.13.1
 pandas==1.5.2
 numpy==1.23.4
 scikit-learn==1.2.0
-scipy==1.9.3
+scipy>=1.9.3
 tqdm==4.64.1
 scanpy==1.9.1
 goatools==1.2.4
 seaborn==0.12.2
 matplotlib==3.6.2
 umap-learn==0.5.4
+tensorboard

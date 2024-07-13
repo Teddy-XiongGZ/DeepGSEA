@@ -14,7 +14,7 @@ import umap
 from sklearn.decomposition import PCA
 from sklearn.metrics import accuracy_score, roc_auc_score, f1_score
 from scipy.stats import mannwhitneyu,kruskal,combine_pvalues,false_discovery_control
-from load_data import *
+from .load_data import *
 import pdb
 
 pal = ['#e6194B', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#42d4f4', '#f032e6', '#bfef45', '#fabed4', '#469990', '#dcbeff', '#9A6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#a9a9a9', '#000000', '#ffffff']
@@ -674,11 +674,9 @@ def plot_heatmap(config, concept_id=[]):
             sc.pl.heatmap(adata, adata.var.index.tolist(), groupby="group", figsize=(10, 4))
             plt.savefig(os.path.join(save_dir, concept_name[i]+".png"), bbox_inches='tight')
 
-                    
-if __name__ == "__main__":
-    
+def main():    
     import argparse
-    from config import Config
+    from .config import Config
 
     parser = argparse.ArgumentParser()
 
@@ -782,3 +780,7 @@ if __name__ == "__main__":
         plot_heatmap(config, concept_id=concept_id)
     else:
         raise ValueError("Interpretation \"{:s}\" not supported".format(interpret))
+
+
+if __name__ == "__main__":
+    main()
