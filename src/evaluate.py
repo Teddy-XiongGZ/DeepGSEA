@@ -2,7 +2,7 @@ import os
 import time
 import torch
 import argparse
-from config import Config
+from .config import Config
 import pdb
 
 if __name__ == "__main__":
