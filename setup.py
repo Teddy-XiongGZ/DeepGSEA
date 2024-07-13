@@ -24,8 +24,6 @@ setup(
     url='https://github.com/Teddy-XiongGZ/DeepGSEA',
 
     packages=find_packages(include=['*']),
-    package_dir={'':'src'},
-
     install_requires=required,
 
     classifiers=[
