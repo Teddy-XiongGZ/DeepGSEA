@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from __init__ import __version__, __author__, __email__
+from src.__init__ import __version__, __author__, __email__
 from pathlib import Path
 
 this_directory = Path(__file__).parent
