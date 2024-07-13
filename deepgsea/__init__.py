@@ -1,7 +1,14 @@
+from . import config
+# from . import count
+from . import evaluate
+from . import interpret
+from . import load_data
+from . import model
+from . import pvalue_real
+from . import pvalue_simul
+from . import run
 
-#TODO: Add import statements for all necessary modules in the package
 
-#TODO: Add the version, author, and email variables
 __version__ = "0.0.1"
 __author__ = "Guangzhi Xiong"
 __email__ = 'hhu4zu@virginia.edu'
