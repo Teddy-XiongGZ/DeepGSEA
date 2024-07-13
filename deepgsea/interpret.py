@@ -674,11 +674,9 @@ def plot_heatmap(config, concept_id=[]):
             sc.pl.heatmap(adata, adata.var.index.tolist(), groupby="group", figsize=(10, 4))
             plt.savefig(os.path.join(save_dir, concept_name[i]+".png"), bbox_inches='tight')
 
-                    
-if __name__ == "__main__":
-    
+def main():    
     import argparse
-    from config import Config
+    from .config import Config
 
     parser = argparse.ArgumentParser()
 
@@ -782,3 +780,7 @@ if __name__ == "__main__":
         plot_heatmap(config, concept_id=concept_id)
     else:
         raise ValueError("Interpretation \"{:s}\" not supported".format(interpret))
+
+
+if __name__ == "__main__":
+    main()
