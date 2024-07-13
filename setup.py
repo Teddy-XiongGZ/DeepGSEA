@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages, find_namespace_packages
 from src.__init__ import __version__, __author__, __email__
 from pathlib import Path
 
@@ -23,7 +23,8 @@ setup(
 
     url='https://github.com/Teddy-XiongGZ/DeepGSEA',
 
-    packages=find_packages(include=['*']),
+    packages=find_namespace_packages(where='src'),
+    package_dir={'': 'src'},
     install_requires=required,
 
     classifiers=[
