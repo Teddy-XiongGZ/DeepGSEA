@@ -10,3 +10,4 @@ seaborn==0.12.2
 matplotlib==3.6.2
 umap-learn==0.5.4
 tensorboard==2.15.1
+torchmetrics==1.3.0.post0
