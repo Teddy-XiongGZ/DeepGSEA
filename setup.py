@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    python_requires='>=3.9',
+    python_requires='>=3.9,<=3.12',
     name='DeepGSEA',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -23,7 +23,7 @@ setup(
 
     url='https://github.com/Teddy-XiongGZ/DeepGSEA',
 
-    packages=find_packages(include=['src.*']),
+    packages=find_packages(include=['*']),
     package_dir={'':'src'},
 
     install_requires=required,
