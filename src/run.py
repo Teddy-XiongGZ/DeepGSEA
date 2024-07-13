@@ -1,8 +1,8 @@
 import argparse
-from config import Config
+from .config import Config
 import pdb
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--data", default="glioblastoma")
@@ -72,3 +72,6 @@ if __name__ == "__main__":
     )
         
     config.train()
+
+if __name__ == "__main__":
+    main()
